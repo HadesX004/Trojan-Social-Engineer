@@ -1,0 +1,17 @@
+[package]
+name = "Trojan"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "Trojan"
+path = "src/securityPDF.rs"
+
+[dependencies]
+powershell_script = "1.0.4"
+
+[build-dependencies]
+winres = "0.1.12"
+
